@@ -4,4 +4,4 @@ SEO - Search Engine Optimization which is usefull to showcase the product when u
 
 code is written in tag format
 
-
+Boiler plate - !
