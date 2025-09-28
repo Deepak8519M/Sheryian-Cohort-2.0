@@ -20,12 +20,12 @@ h1 {
   -webkit-text-stroke: 2px white; /* Outline color */
   /* position: relative;
   overflow: hidden; */
-  -webkit-text-stroke: 5px red;
+  -webkit-text-stroke: 5px rgb(255, 154, 87);
   transition: all ease-in 0.3s;
 }
 h1:hover {
   transition: all ease-in 0.3s;
-  color: rgb(77, 129, 61);
+  color: rgb(255, 46, 46);
 }
 h2 {
   font-family: "Urbanist", sans-serif;
