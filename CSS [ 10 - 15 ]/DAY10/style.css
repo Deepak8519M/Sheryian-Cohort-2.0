@@ -11,6 +11,10 @@
   font-family: "Sd";
   src: url(./Shadow\ of\ the\ Deads.ttf);
 }
+@font-face {
+  font-family: Bb;
+  src: url(./BlueberrypiepersonaluseBold-x3AZV.otf);
+}
 body {
   height: 100vh;
   width: 100%;
@@ -31,6 +35,17 @@ body {
 .page2 {
   background: black;
   position: relative;
+}
+.page3 {
+  background: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3 h3 {
+  font-family: Bb;
+  font-size: 13vw;
 }
 h2 {
   font-family: Curse;
