@@ -5,15 +5,15 @@
 }
 @font-face {
   font-family: Curse;
-  src: url(./Curse\ of\ the\ Zombie.ttf);
+  src: url(./fonts/Curse\ of\ the\ Zombie.ttf);
 }
 @font-face {
   font-family: "Sd";
-  src: url(./Shadow\ of\ the\ Deads.ttf);
+  src: url(./fonts/Shadow\ of\ the\ Deads.ttf);
 }
 @font-face {
   font-family: Bb;
-  src: url(./BlueberrypiepersonaluseBold-x3AZV.otf);
+  src: url(./fonts/BlueberrypiepersonaluseBold-x3AZV.otf);
 }
 body {
   height: 100vh;
