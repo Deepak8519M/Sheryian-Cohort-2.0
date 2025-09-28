@@ -49,6 +49,9 @@ body {
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 2px #0b03ff;
 }
+img {
+  mix-blend-mode: darken;
+}
 h2 {
   font-family: Curse;
   font-family: "Sd";
