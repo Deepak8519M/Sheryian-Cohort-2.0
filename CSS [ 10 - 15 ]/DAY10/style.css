@@ -5,58 +5,40 @@
 }
 body {
   height: 100vh;
+  width: 100%;
   background: slateblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  position: relative;
   cursor: pointer;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.page1 {
+  background: seagreen;
+}
+.page2 {
+  background: black;
+  position: relative;
 }
 
 h1 {
   font-family: "Urbanist", sans-serif;
-  font-size: 8vw;
+  font-size: 23vw;
   color: transparent; /* Make text transparent */
   -webkit-text-stroke: 2px white; /* Outline color */
   /* position: relative;
   overflow: hidden; */
   -webkit-text-stroke: 5px rgb(255, 154, 87);
   transition: all ease-in 0.3s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  /* line-height: 1; */
 }
+
 h1:hover {
   transition: all ease-in 0.3s;
   color: rgb(255, 46, 46);
 }
-h2 {
-  font-family: "Urbanist", sans-serif;
-  font-size: 7vw;
-  color: transparent;
-  -webkit-text-stroke: 3px rgb(156, 255, 81);
-  transition: all ease-in 0.3s;
-}
-h2:hover {
-  transition: all ease-in 0.3s;
-  color: black;
-}
-
-/* Add a filled layer that slides across the outline */
-/* h1::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: -120%;
-  color: white;
-  animation: stroke-fill 3s linear infinite;
-} */
-
-/* @keyframes stroke-fill {
-  0% {
-    left: 100%;
-  }
-  50% {
-    left: 0%;
-  }
-  100% {
-    left: -100%;
-  }
-} */
