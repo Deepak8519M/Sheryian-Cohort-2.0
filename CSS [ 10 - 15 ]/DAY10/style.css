@@ -45,7 +45,9 @@ body {
 }
 .page3 h3 {
   font-family: Bb;
-  font-size: 13vw;
+  font-size: 23vw;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 2px #0b03ff;
 }
 h2 {
   font-family: Curse;
