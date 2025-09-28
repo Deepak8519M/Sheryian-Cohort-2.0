@@ -7,6 +7,10 @@
   font-family: Curse;
   src: url(./Curse\ of\ the\ Zombie.ttf);
 }
+@font-face {
+  font-family: "Sd";
+  src: url(./Shadow\ of\ the\ Deads.ttf);
+}
 body {
   height: 100vh;
   width: 100%;
@@ -30,13 +34,16 @@ body {
 }
 h2 {
   font-family: Curse;
+  font-family: "Sd";
+  font-size: 10vw;
 }
 
 h1 {
   /* font-family: "Urbanist", sans-serif; */
-  font-family: Curse;
+  /* font-family: Curse; */
+  font-family: Sd;
 
-  font-size: 23vw;
+  font-size: 13vw;
   color: transparent; /* Make text transparent */
   -webkit-text-stroke: 2px white; /* Outline color */
   /* position: relative;
