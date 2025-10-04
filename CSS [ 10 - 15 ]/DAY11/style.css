@@ -13,4 +13,10 @@ body {
   font-family: "Urbanist", sans-serif;
   background: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  color: orangered;
+  -webkit-text-stroke: 2px white;
 }
