@@ -24,10 +24,11 @@ body {
   width: 200px;
   height: 200px;
   background: orangered;
-  background: linear-gradient(to top, orangered, rgb(63, 255, 76), blue);
+  background: linear-gradient(to right bottom, orangered, blue);
 }
 #box2 {
   width: 200px;
   height: 200px;
   background: slateblue;
+  background: linear-gradient(to top left, green, white);
 }
