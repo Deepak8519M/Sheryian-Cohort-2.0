@@ -70,6 +70,8 @@ main #img1 {
   padding: 5px;
   overflow: hidden;
   background: black;
+  box-shadow: 5px 5px 50px orangered;
+  box-shadow: 5px 5px 50px black;
 }
 main #img1 img {
   width: 100%;
@@ -90,8 +92,11 @@ main #img2 {
   left: 45%;
   border-radius: 30px 30px 0 30px;
   transform: rotate(45deg);
-  padding: 10px;
-  background: linear-gradient(black, orangered);
+  padding: 2px;
+  /* background: linear-gradient(black, orangered); */
+  background: black;
+  background: orangered;
+  box-shadow: 10px 10px 15px black;
 }
 main #img2 img {
   width: 100%;
@@ -112,6 +117,7 @@ main #img3 {
   overflow: hidden;
   background: black;
   padding: 5px;
+  box-shadow: 5px 5px 50px black;
 }
 main #img3 img {
   width: 100%;
