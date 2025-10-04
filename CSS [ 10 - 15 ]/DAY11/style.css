@@ -12,6 +12,9 @@ body {
 body {
   font-family: "Urbanist", sans-serif;
   background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* color: white;
   display: flex;
   justify-content: center;
@@ -31,4 +34,10 @@ body {
   height: 200px;
   background: slateblue;
   background: linear-gradient(to top left, green, white);
+}
+#box3 {
+  width: 200px;
+  height: 200px;
+  background: slateblue;
+  background: radial-gradient(yellow, red, black);
 }
