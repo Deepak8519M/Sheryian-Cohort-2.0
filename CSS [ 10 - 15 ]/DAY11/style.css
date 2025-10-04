@@ -11,48 +11,4 @@ body {
 }
 body {
   font-family: "Urbanist", sans-serif;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4vw;
-  color: orangered;
-  -webkit-text-stroke: 8px orangered; */
-}
-#box1 {
-  width: 200px;
-  height: 200px;
-  background: orangered;
-  background: linear-gradient(to right bottom, orangered, blue);
-}
-#box2 {
-  width: 200px;
-  height: 200px;
-  background: slateblue;
-  background: linear-gradient(to top left, green, white);
-}
-#box3 {
-  width: 200px;
-  height: 200px;
-  background: slateblue;
-  background: radial-gradient(yellow, red, black);
-}
-#box4 {
-  width: 200px;
-  height: 200px;
-  background: slateblue;
-  background: conic-gradient(
-    violet,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orangered,
-    red,
-    violet
-  );
 }
