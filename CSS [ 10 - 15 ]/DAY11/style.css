@@ -11,5 +11,6 @@ body {
 }
 body {
   font-family: "Urbanist", sans-serif;
-  
+  background: black;
+  color: white;
 }
