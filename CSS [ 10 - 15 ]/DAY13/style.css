@@ -26,8 +26,10 @@ nav {
   padding: 20px 10px;
 }
 nav .logo {
-  font-size: 30px;
+  font-size: 35px;
   color: orangered;
+  font-weight: 800;
+  -webkit-text-stroke: 2px black;
 }
 nav ul {
   display: flex;
@@ -40,6 +42,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
+  font-size: 1.3vw;
 }
 main {
   max-width: 1300px;
@@ -52,6 +55,7 @@ main h1 {
   font-size: 18vw;
   font-weight: 500;
   color: orangered;
+  -webkit-text-stroke: 10px black;
 }
 main #img1 {
   width: 240px;
@@ -62,13 +66,16 @@ main #img1 {
   z-index: -1;
   right: 60px;
   transform: rotate(20deg);
-  border-radius: 50px 0 50px 0;
+  border-radius: 0 50px 0 50px;
+  padding: 5px;
   overflow: hidden;
+  background: black;
 }
 main #img1 img {
   width: 100%;
   height: 100%;
   background-size: cover;
+  border-radius: 0 50px 0 50px;
 }
 main #img2 {
   width: 200px;
@@ -80,14 +87,17 @@ main #img2 {
   transform: translateX(-50%);
   top: 380px;
   z-index: -4;
-  left: 46%;
+  left: 45%;
   border-radius: 30px 30px 0 30px;
   transform: rotate(45deg);
+  padding: 10px;
+  background: linear-gradient(black, orangered);
 }
 main #img2 img {
   width: 100%;
   height: 100%;
   background-size: cover;
+  border-radius: 30px 30px 0 30px;
 }
 main #img3 {
   width: 240px;
@@ -100,11 +110,14 @@ main #img3 {
   transform: rotate(-20deg);
   border-radius: 50px 0 50px 0;
   overflow: hidden;
+  background: black;
+  padding: 5px;
 }
 main #img3 img {
   width: 100%;
   height: 100%;
   background-size: cover;
+  border-radius: 50px 0 50px 0;
 }
 main footer {
   width: 100%;
@@ -120,11 +133,14 @@ main footer {
 }
 main footer h2 {
   font-style: italic;
-  font-weight: 300;
+  font-weight: 900;
+  font-size: 34px;
+  -webkit-text-stroke: 2px orangered;
 }
 main footer h3 {
   font-weight: 300;
   text-decoration: underline;
   font-size: 1.3vw;
+
   cursor: pointer;
 }
