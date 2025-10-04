@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Grid+Double+Ink:wght@100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  background: beige;
+}
+nav {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* background: orangered; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+nav .logo {
+  font-size: 30px;
+  color: orangered;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* background: red; */
+  height: 86%;
+  text-align: center;
+}
+main h1 {
+  font-size: 18vw;
+  font-weight: 500;
+  color: orangered;
+}
+main #img1 {
+  width: 240px;
+  height: 300px;
+  background: orangered;
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+  right: 40px;
+  transform: rotate(20deg);
+}
+main #img1 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main #img2 {
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 200px;
+  background: orangered;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 340px;
+  z-index: -4;
+  left: 50%;
+}
+main #img2 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main #img3 {
+  width: 240px;
+  height: 300px;
+  background: orangered;
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+  left: 40px;
+  transform: rotate(-20deg);
+}
+main #img3 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
