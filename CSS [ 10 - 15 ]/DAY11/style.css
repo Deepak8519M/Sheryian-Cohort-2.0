@@ -41,3 +41,18 @@ body {
   background: slateblue;
   background: radial-gradient(yellow, red, black);
 }
+#box4 {
+  width: 200px;
+  height: 200px;
+  background: slateblue;
+  background: conic-gradient(
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orangered,
+    red,
+    violet
+  );
+}
