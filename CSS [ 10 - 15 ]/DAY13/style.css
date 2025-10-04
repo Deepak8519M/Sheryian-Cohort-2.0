@@ -60,8 +60,10 @@ main #img1 {
   position: absolute;
   top: 200px;
   z-index: -1;
-  right: 40px;
+  right: 60px;
   transform: rotate(20deg);
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
 }
 main #img1 img {
   width: 100%;
@@ -92,8 +94,10 @@ main #img3 {
   position: absolute;
   top: 200px;
   z-index: -1;
-  left: 40px;
+  left: 60px;
   transform: rotate(-20deg);
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
 }
 main #img3 img {
   width: 100%;
