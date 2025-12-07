@@ -1,6 +1,3 @@
-Sure! Here's a complete `README.md` file formatted for GitHub, ready to paste directly into your repository:
-
-```markdown
 # 🚀 Sheryians Coding School — Cohort 2.0  
 ### Day-by-Day Classes + Practice Assignments
 
@@ -87,8 +84,3 @@ This repo is part of my **personal learning journey**, but if you find an error 
 ---
 
 Happy Coding! 👨‍💻
-```
-
-If you want, I can also make a **more visually appealing GitHub README** with badges, a table of contents, and tech icons so it looks professional.
-
-Do you want me to do that next?
