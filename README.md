@@ -1,10 +1,11 @@
 # 🚀 Sheryians Coding School — Cohort 2.0
 ### Day-by-Day Classes + Practice Assignments
 
-![GitHub repo size](https://img.shields.io/github.com/Deepak8519M/Sheryian-Cohort-2.0) 
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social) 
-![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo?style=social) 
-![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)  
+![GitHub repo size](https://img.shields.io/github/repo-size/Deepak8519M/Sheryian-Cohort-2.0) 
+![GitHub stars](https://img.shields.io/github/stars/Deepak8519M/Sheryian-Cohort-2.0?style=social) 
+![GitHub forks](https://img.shields.io/github/forks/Deepak8519M/Sheryian-Cohort-2.0?style=social) 
+![GitHub issues](https://img.shields.io/github/issues/Deepak8519M/Sheryian-Cohort-2.0) 
+
 
 This repository contains all my **daily notes, class summaries, practice assignments, and mini-projects** from the **Sheryians Coding School — Full Stack Web Development Cohort 2.0**.
 
