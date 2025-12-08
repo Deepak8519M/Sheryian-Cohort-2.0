@@ -81,7 +81,7 @@ Day 03 - JavaScript Intro
 
 ```
 
-Each day will include notes, code files, and completed tasks.
+Each day will include Notes, Code Files, and Completed tasks.
 
 ---
 
