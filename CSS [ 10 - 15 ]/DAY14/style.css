@@ -13,7 +13,7 @@ body {
 }
 .section11 {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: #c6caa7;
 }
 .section11 nav {
@@ -71,8 +71,10 @@ body {
 }
 .section11 .foot {
   width: 100%;
-  background: red;
+  /* background: red; */
   height: 30vh;
+  display: flex;
+  align-items: center;
 }
 .section11 .foot .foot1 {
   height: 17vh;
@@ -104,7 +106,7 @@ body {
 }
 .section11 .foot .foot2 {
   height: 13vh;
-  background: blue;
+  /* background: blue; */
   display: flex;
   /* gap: 10px; */
   justify-content: space-between;
