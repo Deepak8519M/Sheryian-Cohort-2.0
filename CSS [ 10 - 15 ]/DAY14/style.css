@@ -69,6 +69,16 @@ body {
 .section11 .mid .right .icon img {
   width: 300px;
 }
+.section11 .foot {
+  width: 100%;
+  background: red;
+  height: 30vh;
+}
+.section11 .foot .foot1 {
+  height: 15vh;
+  background: rgb(89, 47, 255);
+  width: 100%;
+}
 
 .section1 {
   width: 100%;
