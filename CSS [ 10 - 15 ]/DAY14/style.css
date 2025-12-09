@@ -42,23 +42,32 @@ body {
   border-radius: 20px;
 }
 .section11 .mid {
-  background: red;
+  /* background: red; */
   width: 90%;
   height: 60vh;
   margin: 0 auto;
   font-weight: 400;
+  display: flex;
+  justify-content: space-between;
 }
 .section11 .mid .left {
   width: 70%;
-  background: blue;
+  /* background: blue; */
   height: 100%;
   font-weight: 100;
   padding: 20px;
-  font-size: 40px;
+  font-size: 45px;
 }
 .section11 .mid .left span {
   font-style: italic;
   font-weight: 500;
+}
+.section11 .mid .right {
+  /* background: black; */
+  width: 30%;
+}
+.section11 .mid .right .icon img {
+  width: 300px;
 }
 
 .section1 {
