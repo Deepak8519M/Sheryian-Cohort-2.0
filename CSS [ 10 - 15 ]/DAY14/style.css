@@ -53,6 +53,12 @@ body {
   background: blue;
   height: 100%;
   font-weight: 100;
+  padding: 20px;
+  font-size: 40px;
+}
+.section11 .mid .left span {
+  font-style: italic;
+  font-weight: 500;
 }
 
 .section1 {
