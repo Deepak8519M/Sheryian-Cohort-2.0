@@ -75,9 +75,65 @@ body {
   height: 30vh;
 }
 .section11 .foot .foot1 {
-  height: 15vh;
-  background: rgb(89, 47, 255);
+  height: 17vh;
+  /* background: rgb(89, 47, 255); */
   width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.section11 .foot .foot1 .box {
+  width: 300px;
+  height: 100%;
+  background: black;
+}
+.section11 .foot .foot1 .box.box1 {
+  width: 100px;
+  height: 100%;
+  background: #edf95a;
+  border-radius: 50%;
+}
+.section11 .foot .foot1 .box.box2 {
+  background: #ff6e2b;
+  border-radius: 70px;
+}
+.section11 .foot .foot1 .box.box3 {
+  background: rgb(89, 47, 255);
+  border-radius: 50%;
+  width: 200px;
+}
+.section11 .foot .foot2 {
+  height: 13vh;
+  background: blue;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+.section11 .foot .foot2 .box {
+  width: 300px;
+  background: #edf95a;
+}
+.section11 .foot .foot2 .box.box1 {
+  width: 40%;
+  background: #edf95a;
+  border-radius: 0 50px 50px 0;
+}
+.section11 .foot .foot2 .box.box2 {
+  width: 30%;
+  background: #8032ff;
+  border-radius: 50px;
+}
+.section11 .foot .foot2 .box.box3 {
+  width: 6%;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.section11 .foot .foot2 .box.box4 {
+  width: 15%;
+  background: #3dff67;
+  border-radius: 50px 0 0 50px;
 }
 
 .section1 {
